@@ -1,9 +1,60 @@
+:root {
+  --base-color: #FF0A0A;
+  --base-opacity-color: rgba(255, 17, 17, 0.1);
+  --dark-color: rgba(0, 0, 0, 0.8);
+  --font-stack: 'Poppins', sans-serif;
+  --font-heading-size-xl: 63px;
+  --font-heading-size-lg: 36px;
+  --font-body-size-lg: 18px;
+  --font-body-size-md: 16px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-family: var(--font-stack);
+}
+
+/* Utilities */
+
+.btn {
+  background: var(--base-color);
+  color: #fff;
+  border-radius: 15px;
+}
+
+.base-text {
+  color: var(--base-color) !important;
+}
+
+.dark-text {
+  color: var(--dark-color) !important;
+}
+
+/* Hero */
+
 #hero {
   height: 409px;
+}
+
+#hero h1, #hero .cta-heading {
+  color: var(--base-color);
+}
+
+#hero h1 {
+  font-weight: 500;
+  font-size: var(--font-heading-size-xl);
+}
+
+#hero .lead {
+  font-size: var(--font-body-size-lg);
+}
+
+#hero form input[type=email] {
+  width: 350px;
+  border-radius: 15px;
 }

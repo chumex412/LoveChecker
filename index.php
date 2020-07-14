@@ -26,10 +26,10 @@
       <div class="row container-fluid d-flex align-items-center">
         <div class="col-md">
           <h1>True Love Checker</h1>
-          <p>This App predicts if your spouse loves you or not using your love commitment data</p>
+          <p class="dark-text">This App predicts if your spouse loves you or not using your love commitment data</p>
           <form action="#" class="hero-form-lg">
             <div class="form-group">
-              <p>Coming Soon!</p>
+              <p class="cta-head">Coming Soon!</p>
               <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="Enter Your Email...">
               <input type="submit" class="btn btn-lg" value="Notfy Me">
             </div>
