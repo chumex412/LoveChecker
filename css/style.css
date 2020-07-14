@@ -17,6 +17,7 @@
 
 body {
   font-family: var(--font-stack);
+  color: var(--dark-color);
 }
 
 /* Utilities */
@@ -35,10 +36,18 @@ body {
   color: var(--dark-color) !important;
 }
 
+.underline {
+  margin: 1rem auto;
+  height: 4px;
+  width: 100px;
+  display: block;
+  background: var(--base-color);
+}
+
 /* Hero */
 
 #hero {
-  height: 409px;
+  min-height: 409px;
 }
 
 #hero h1, #hero .cta-heading {
@@ -57,4 +66,22 @@ body {
 #hero form input[type=email] {
   width: 350px;
   border-radius: 15px;
+}
+
+/* Section - Features */
+
+#features p {
+  line-height: 30px;
+}
+
+#features ul {
+  list-style: none;
+}
+
+#features ul li {
+  margin-bottom: .5rem;
+}
+
+#features ul li img {
+  padding-right: 1rem;
 }
