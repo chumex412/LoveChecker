@@ -6,7 +6,6 @@
   --font-heading-size-xl: 63px;
   --font-heading-size-lg: 36px;
   --font-body-size-lg: 18px;
-  --font-body-size-md: 16px;
 }
 
 * {
@@ -22,11 +21,13 @@ body {
 
 p {
   line-height: 30px;
+  font-size: var(--font-body-size-lg);
 }
 
 /* Utilities */
 
 .btn {
+  width: 100%;
   background: var(--base-color);
   color: #fff;
   border-radius: 15px;
@@ -57,12 +58,18 @@ nav {
 /* Hero */
 
 #hero {
+  padding-left: 3rem;
+  padding-right: 3rem;
   min-height: 409px;
   background: var(--base-opacity-color);
 }
 
 #hero h1, #hero .cta-heading, #sliders h3 {
   color: var(--base-color);
+}
+
+#hero .hero-desc {
+  margin-right: 5rem;
 }
 
 #hero h1 {
@@ -75,8 +82,12 @@ nav {
 }
 
 #hero form input[type=email] {
-  width: 350px;
+  width: 100%;
   border-radius: 15px;
+}
+
+#hero .hero-form-sm { 
+  display: none;
 }
 
 /* Section - Features */
@@ -90,7 +101,15 @@ nav {
 }
 
 #features ul li img {
-  padding-right: 1rem;
+  padding-right: 2rem;
+}
+
+#features ul li p {
+  margin-bottom: 0;
+}
+
+.sections-img {
+  width: 350px;
 }
 
 /* Section - Sliders */
@@ -114,6 +133,10 @@ nav {
 
 /* Section - Benefits */
 
+#benefits h4 {
+  padding-bottom: 1rem;
+}
+
 #benefits img {
   margin-bottom: 1.5rem;
 }
@@ -131,28 +154,30 @@ nav {
 /* footer */
 
 footer {
-  height: 596px;
+  min-height: 596px;
+  padding: 2rem;
   background: url('../img/bg.png') left bottom no-repeat, var(--base-opacity-color);
 }
 
 footer .container {
-  margin-left: 18rem;
+  margin-left: 18%;
 }
 
 footer p {
   margin-bottom: 2rem;
   font-size: 36px;
+  line-height: 45px;
 }
 
 footer form input#email.form-control {
-  width: 570px;
+  width: 100%;
   border-radius: 15px;
   border: 1px solid #333;
   background: none;
 }
 
 footer .social-media {
-  margin-top: 10rem;
+  margin-top: 4rem;
   list-style: none;
 }
 

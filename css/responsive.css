@@ -1,0 +1,127 @@
+/* Mobile Screen - md */
+
+/* footer */
+footer {
+  min-height: 400px;
+  background: url('../img/bg-sm.png') left bottom no-repeat, var(--base-opacity-color);;
+}
+
+footer .container {
+  margin: auto;
+  padding: 3rem 2rem 1rem;
+}
+
+footer p {
+  line-height: 40px;
+}
+
+footer .social-media {
+  margin-top: 6rem;
+}
+
+footer form .btn {
+  margin-top: 1rem;
+}
+
+
+/* Mobile Screen - sm */
+
+@media (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+  
+  /* Utilities */
+  .sections-img {
+    width: 200px !important;
+  }
+  
+  /* Hero */
+  #hero {
+    padding: 2rem;
+  }
+  
+  #hero h1 {
+    font-size: 40px;
+  }
+  
+  #hero .row.container-fluid .col-md.px-5 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  #hero .hero-desc {
+    margin-right: 0;
+  }
+  
+  #hero .hero-form-lg { 
+    display: none;
+  }
+  
+  #hero .hero-form-sm { 
+    display: block;
+    margin-top: 1.5rem;
+  }
+  
+  #hero form input[type=email] {
+    margin-bottom: 1rem;
+  }
+  
+  /* Section - Features */  
+  #features li p {
+    margin-bottom: 0;
+  }
+  
+  #features img {
+    margin-bottom: 2rem;
+  }
+  
+  #features li {
+    text-align: left;
+    margin-top: 1rem;
+  }
+  
+  /* Section - Sliders */
+  #sliders p {
+    margin-bottom: 2rem;
+  }
+  
+  #sliders .row {
+    min-height: 600px;
+  }
+  
+  #slider img {
+    width: 200px;
+  }
+  
+  /* Section - Benefits */
+  #benefits .col-md {
+    margin: 1rem;
+  }
+  
+  #benefits .col-md:first-child {
+    margin-left: 1rem;
+  }
+}
+
+
+/* Mobile Screen - xm */
+
+@media (max-width: 550px) {
+  footer .social-media {
+    margin-left: 35%;
+  }
+}
+
+
+/* Mobile Screen - xxm */
+
+@media (max-width: 415px) {
+  footer {
+    background: var(--base-opacity-color);
+  }
+
+  footer .social-media {
+    margin: 4rem auto 1rem auto;
+  }
+}

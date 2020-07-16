@@ -13,33 +13,54 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" media="screen and (max-width: 950px)" href="css/responsive.css">
 
     <title>Love Checker</title>
   </head>
   <body>
     <!-- Nav -->
     <nav class="navbar navbar-light px-5">
-      <a class="navbar-brand px-5" href="#">
+      <a class="navbar-brand" href="#">
         <img src="img/logo.png" width="70" height="70" alt="Love Checker" loading="lazy">
       </a>
     </nav>
 
     <!-- Header/Hero -->
-    <header id="hero" class="px-5 py-5">
-      <div class="row container-fluid d-flex align-items-center">
-        <div class="col-md px-5">
+    <header id="hero" class="container-fluid py-5">
+      <div class="row d-flex align-items-center">
+        <div class="col-md hero-desc">
           <h1 class="mb-3">True Love Checker</h1>
           <p class="lead dark-text mb-4">This App predicts if your spouse loves you or not using your love commitment data</p>
-          <p class="cta-head base-text mb-2">Coming Soon!</p>
-          <form action="#" class="hero-form-lg form-inline">
-            <div class="form-group">
-              <input type="email" class="form-control form-control-lg mr-4" name="email" id="email" placeholder="Enter Your Email...">
-              <input type="submit" class="btn btn-lg" value="Notify Me">
-            </div>
-          </form>
+          <div class="hero-form-lg">
+            <p class="cta-head base-text mb-2">Coming Soon!</p>
+            <form action="#">
+              <div class="row">
+                <div class="col-lg-7">
+                  <input type="email" class="form-control form-control-lg mb-2" name="email" id="email" placeholder="Enter Your Email...">
+                </div>
+                <div class="col-lg-5">
+                  <input type="submit" class="btn btn-lg" value="Notify Me">
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
         <div class="col-md">
           <img src="img/undraw_love_xfcv.png" class="img-fluid" alt="Love Checker">
+          <div class="hero-form-sm">
+            <p class="cta-head base-text mb-2">Coming Soon!</p>
+            <form action="#">
+              <div class="row">
+                <div class="col-md">
+                  <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="Enter Your Email...">
+                </div>
+                <div class="col-md">
+                  <input type="submit" class="btn btn-lg" value="Notify Me">
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </header>
@@ -53,15 +74,27 @@
         </div>
         <div class="row align-items-center">
           <div class="col-md text-center">
-            <img src="img/features.png" class="img-fluid" width="350" alt="Love Checker">
+            <img src="img/features.png" class="img-fluid sections-img" alt="Love Checker">
           </div>
           <div class="col-md">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
             <ul>
-              <li><img src="img/icons/chats.svg" alt="Features"> Read Social Media Chats & conversations</li>
-              <li><img src="img/icons/phone.svg" alt="Features"> Investigate Conversation on Phone calls</li>
-              <li><img src="img/icons/location.svg" alt="Features"> Record Meetup locations & Events</li>
-              <li><img src="img/icons/data.svg" alt="Features"> Output and detect True love base on collected data</li>
+              <li class="d-flex align-items-center">
+                <img src="img/icons/chats.svg" class="icon mt-auto mb-auto" alt="Features">
+                <p>Read Social Media Chats & conversations</p>
+              </li>
+              <li class="d-flex align-items-center">
+                <img src="img/icons/phone.svg" class="icon mt-auto mb-auto" alt="Features">
+                <p>Investigate Conversation on Phone calls</p>
+              </li>
+              <li class="d-flex align-items-center">
+                <img src="img/icons/location.svg" class="icon mt-auto mb-auto" alt="Features">
+                <p>Record Meetup locations & Events</p>
+              </li>
+              <li class="d-flex align-items-center">
+                <img src="img/icons/data.svg" class="icon mt-auto mb-auto" alt="Features">
+                <p>Output and detect True love base on collected data</p>
+              </li>
             </ul>
           </div>
         </div>
@@ -79,7 +112,7 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
         </ol>
-        <div class="carousel-inner">
+        <div class="carousel-inner mb-5">
           <div class="carousel-item active">
             <div class="container">
               <div class="row align-items-center">
@@ -88,7 +121,7 @@
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
                 </div>
                 <div class="col-md text-center">
-                  <img src="img/features.png" class="img-fluid" width="400" alt="Mockup">
+                  <img src="img/slider1.png" class="img-fluid sections-img" width="400" alt="Mockup">
                 </div>
               </div>
             </div>
@@ -101,7 +134,7 @@
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
                 </div>
                 <div class="col-md text-center">
-                  <img src="img/features.png" class="img-fluid" width="400" alt="Mockup">
+                  <img src="img/slider1.png" class="img-fluid sections-img" width="400" alt="Mockup">
                 </div>
               </div>
             </div>
@@ -114,7 +147,7 @@
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
                 </div>
                 <div class="col-md text-center">
-                  <img src="img/features.png" class="img-fluid" width="400" alt="Mockup">
+                  <img src="img/slider1.png" class="img-fluid sections-img" width="400" alt="Mockup">
                 </div>
               </div>
             </div>
@@ -127,7 +160,7 @@
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
                 </div>
                 <div class="col-md text-center">
-                  <img src="img/features.png" class="img-fluid" width="400" alt="Mockup">
+                  <img src="img/slider1.png" class="img-fluid sections-img" width="400" alt="Mockup">
                 </div>
               </div>
             </div>
@@ -140,7 +173,7 @@
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
                 </div>
                 <div class="col-md text-center">
-                  <img src="img/features.png" class="img-fluid" width="400" alt="Mockup">
+                  <img src="img/slider1.png" class="img-fluid sections-img" width="400" alt="Mockup">
                 </div>
               </div>
             </div>
@@ -153,7 +186,7 @@
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
                 </div>
                 <div class="col-md text-center">
-                  <img src="img/features.png" class="img-fluid" width="400" alt="Mockup">
+                  <img src="img/slider1.png" class="img-fluid sections-img" width="400" alt="Mockup">
                 </div>
               </div>
             </div>
@@ -193,10 +226,14 @@
     <footer class="d-flex align-items-center">
       <div class="container text-center">
         <p class="base-text dark-text"><span class="cta-head base-text">Coming Soon!</span> Get Notified When We Launch</p>
-        <form action="#" class="hero-form-lg form-inline d-flex justify-content-center">
-          <div class="form-group">
-            <input type="email" class="form-control form-control-lg mr-4" name="email" id="email" placeholder="Enter Your Email...">
-            <input type="submit" class="btn btn-lg" value="Notify Me">
+        <form action="#" class="d-flex justify-content-center">
+          <div class="row">
+            <div class="col-lg-7 pb-3">
+              <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="Enter Your Email...">
+            </div>
+            <div class="col-lg-5">
+              <input type="submit" class="btn btn-lg" value="Notify Me">
+            </div>
           </div>
         </form>
         <ul class="social-media d-flex justify-content-center">
