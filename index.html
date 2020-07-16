@@ -11,6 +11,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <!-- Animation CSS (animate.css) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
     <!-- Magnific Popup core CSS file -->
     <link rel="stylesheet" href="css/magnific-popup/magnific-popup.css">
 
@@ -23,46 +26,50 @@
   </head>
   <body>
     <!-- Nav -->
-    <nav class="navbar navbar-light px-5">
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.png" width="70" height="70" alt="Love Checker" loading="lazy">
-      </a>
+    <nav class="navbar navbar-light px-5 animate__animated animate__fadeIn">
+      <div class="container">
+        <a class="navbar-brand animate__animated animate__pulse" href="#">
+          <img src="img/logo.png" width="70" height="70" alt="Love Checker" loading="lazy">
+        </a>
+      </div>
     </nav>
 
     <!-- Header/Hero -->
-    <header id="hero" class="container-fluid py-5">
-      <div class="row d-flex align-items-center">
-        <div class="col-md hero-desc">
-          <h1 class="mb-3">True Love Checker</h1>
-          <p class="lead dark-text mb-4">This App predicts if your spouse loves you or not using your love commitment data</p>
-          <div class="hero-form-lg">
-            <p class="cta-head base-text mb-2">Coming Soon!</p>
-            <form action="#">
-              <div class="row">
-                <div class="col-lg-7">
-                  <input type="email" class="form-control form-control-lg mb-2" name="email" id="email" placeholder="Enter Your Email...">
+    <header id="hero" class="container-fluid py-5 animate__animated animate__fadeIn">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md hero-desc">
+            <h1 class="mb-3 animate__animated animate__bounceInDown">True Love Checker</h1>
+            <p class="lead dark-text mb-4 animate__animated animate__bounceInUp">This App predicts if your spouse loves you or not using your love commitment data</p>
+            <div class="hero-form-lg">
+              <p class="cta-head base-text mb-2">Coming Soon!</p>
+              <form action="#">
+                <div class="row">
+                  <div class="col-lg-7">
+                    <input type="email" class="form-control form-control-lg mb-2" name="email" id="email" placeholder="Enter Your Email...">
+                  </div>
+                  <div class="col-lg-5">
+                    <input type="submit" class="btn btn-lg" value="Notify Me">
+                  </div>
                 </div>
-                <div class="col-lg-5">
-                  <input type="submit" class="btn btn-lg" value="Notify Me">
-                </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
-        </div>
-        <div class="col-md">
-          <img src="img/undraw_love_xfcv.png" class="img-fluid" alt="Love Checker">
-          <div class="hero-form-sm">
-            <p class="cta-head base-text mb-2">Coming Soon!</p>
-            <form action="#">
-              <div class="row">
-                <div class="col-md">
-                  <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="Enter Your Email...">
+          <div class="col-md animate__animated animate__rotateInUpRight">
+            <img src="img/undraw_love_xfcv.png" class="img-fluid" alt="Love Checker">
+            <div class="hero-form-sm">
+              <p class="cta-head base-text mb-2">Coming Soon!</p>
+              <form action="#">
+                <div class="row">
+                  <div class="col-md">
+                    <input type="email" class="form-control form-control-lg" name="email" id="email" placeholder="Enter Your Email...">
+                  </div>
+                  <div class="col-md">
+                    <input type="submit" class="btn btn-lg" value="Notify Me">
+                  </div>
                 </div>
-                <div class="col-md">
-                  <input type="submit" class="btn btn-lg" value="Notify Me">
-                </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -71,15 +78,15 @@
     <!-- Section - Features -->
     <div id="features" class="container-fluid">
       <div class="container py-5">
-        <div class="section-head text-center mb-5">
+        <div class="section-head text-center mb-5 wow animate__animated animate__fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
           <h2>App Features</h2>
           <span class="underline"></span>
         </div>
         <div class="row align-items-center">
-          <div class="col-md text-center">
+          <div class="col-md text-center wow animate__animated animate__lightSpeedInLeft" data-wow-duration="1s" data-wow-delay=".5s">
             <img src="img/features.png" class="img-fluid sections-img" alt="Love Checker">
           </div>
-          <div class="col-md">
+          <div class="col-md wow animate__animated animate__lightSpeedInRight" data-wow-duration="1s" data-wow-delay=".5s">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
             <ul>
               <li class="d-flex align-items-center">
@@ -105,7 +112,7 @@
     </div>
 
     <!-- Section - Sliders -->
-    <section id="sliders" class="container-fluid py-5 d-flex align-items-center justify-content-center">
+    <section id="sliders" class="container-fluid py-5 d-flex align-items-center justify-content-center wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -119,7 +126,7 @@
           <div class="carousel-item active">
             <div class="container">
               <div class="row align-items-center">
-                <div class="col-md">
+                <div class="col-md wow animate__animated animate__fadeInDown" data-wow-duration="2s" data-wow-delay=".5s">
                   <h3> Meetup Locations & Events</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
                 </div>
@@ -136,7 +143,7 @@
           <div class="carousel-item">
             <div class="container">
               <div class="row align-items-center">
-                <div class="col-md">
+                <div class="col-md animate__animated animate__fadeInDown">
                   <h3> Social Media Chats & Conversations</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
                 </div>
@@ -151,7 +158,7 @@
           <div class="carousel-item">
             <div class="container">
               <div class="row align-items-center">
-                <div class="col-md">
+                <div class="col-md animate__animated animate__fadeInDown">
                   <h3>Investigate Conversation On Phone Calls</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
                 </div>
@@ -166,7 +173,7 @@
           <div class="carousel-item">
             <div class="container">
               <div class="row align-items-center">
-                <div class="col-md">
+                <div class="col-md animate__animated animate__fadeInDown">
                   <h3>Record Meetup Locations & Events</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
                 </div>
@@ -181,7 +188,7 @@
           <div class="carousel-item">
             <div class="container">
               <div class="row align-items-center">
-                <div class="col-md">
+                <div class="col-md animate__animated animate__fadeInDown">
                   <h3>Investigate Conversation On Phone Calls</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
                 </div>
@@ -196,7 +203,7 @@
           <div class="carousel-item">
             <div class="container">
               <div class="row align-items-center">
-                <div class="col-md">
+                <div class="col-md animate__animated animate__fadeInDown">
                   <h3>Investigate Conversation On Phone Calls</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris, sit pellentesque quam orci, duis et rutrum tortor vitae. Velit duis faucibus mi molestie maecenas euismod.</p>
                 </div>
@@ -215,11 +222,11 @@
     <!-- Section - Benefits -->
     <section id="benefits" class="container-fluid">
       <div class="container py-5">
-        <div class="section-head text-center mb-5">
+        <div class="section-head text-center mb-5 wow animate__animated animate__fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
           <h2>App Benefits</h2>
           <span class="underline"></span>
         </div>
-        <div class="row">
+        <div class="row wow animate__animated animate__fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
           <div class="col-md text-center">
             <img src="img/icons/love-connection.svg" alt="icon">
             <h4>Love Connection</h3>
@@ -240,8 +247,8 @@
     </section>
 
     <!-- footer -->
-    <footer class="d-flex align-items-center">
-      <div class="container text-center">
+    <footer class="d-flex align-items-center" data-wow-duration="1s" data-wow-delay=".5s">
+      <div class="container text-center wow animate__animated animate__fadeInUp">
         <p class="base-text dark-text"><span class="cta-head base-text">Coming Soon!</span> Get Notified When We Launch</p>
         <form action="#" class="d-flex justify-content-center">
           <div class="row">
@@ -273,6 +280,9 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- WOW JS -->
+    <script src="js/wow/wow.min.js"></script>
 
     <!-- Magnific Popup core JS file -->
     <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>

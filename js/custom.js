@@ -1,3 +1,9 @@
+// ANIMATION WOW Activattion
+$(function() {
+  // Animate On Scroll
+  new WOW().init();
+});
+
 // Slider - Magnific Popup
 $(document).ready(function() {
   $('.image-link').magnificPopup({type:'image'});
