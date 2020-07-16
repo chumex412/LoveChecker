@@ -131,6 +131,16 @@ nav {
   background-color: var(--dark-color);
 }
 
+#sliders .img-wrapper {
+  overflow: hidden;
+}
+
+#sliders .img-wrapper img:hover {
+  transform: scale(1.3);
+  cursor: zoom-in;
+  transition: .5 ease-in-out;
+}
+
 /* Section - Benefits */
 
 #benefits h4 {
